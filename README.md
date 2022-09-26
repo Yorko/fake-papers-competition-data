@@ -1,17 +1,17 @@
-This repository partially reproduces the data collection process for the COLING workshop SDP [shared task](https://sdproc.org/2022/sharedtasks.html) "DAGPap22: Detecting automatically generated scientific papers".
+This repository partially reproduces the data collection process for the COLING workshop SDP [shared task](https://sdproc.org/2022/sharedtasks.html) "DAGPap22: Detecting automatically generated scientific papers". [Kaggle competition](https://www.kaggle.com/competitions/detecting-generated-scientific-papers).
 
 The data comes from several sources:
 
 1. MICPRO retracted papers (fake)
 2. Good MICPRO papers (human-written)
 3. Abstracts of SDG-related papers (human-written)
-4. Summarized SDG & MICPRO abstracts (fake)
-5. Back-translated SDG & MICPRO abstracts (fake)
-6. Generated SDG & MICPRO abstracts (fake)
-7. Spinbot paraphraser (fake)
-8. GPT-3 few-shot generated content (fake)
-
-For sources 4-6, we thank Labs for their help ([repo](https://github.com/elsevier-centraltechnology/labs-fake-paper/)), namely, Tony Scerri, Curt Kohler, and Ron Daniel.
+4. Summarized SDG abstracts (fake)
+5. Summarized MICPRO abstracts (fake)
+6. Generated SDG abstracts (fake)
+7. Generated MICPRO abstracts (fake)
+8. Spinbot-paraphrased content (fake)
+9. GPT-3 few-shot generated content (fake)
+10. Back-translated SDG & MICPRO abstracts (fake)
 
 ## 0. Setting up the environment
 
