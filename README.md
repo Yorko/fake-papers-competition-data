@@ -31,16 +31,10 @@ curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poet
 poetry install
 ```
 
-4\. The notebooks listed below are reproduced by running `Jupyter` inside the Poetry environment:
-
-```
-poetry run jupyter-notebook
-```
 
 ## 1. MICPRO retracted papers
 
 These excerpts come from ~6k passages from a list of 167 MICPRO papers published in 2020-2021 and later retracted.
-
 
 
 ## 2. Good MICPRO papers
@@ -136,3 +130,18 @@ Validation accuracy scores for tf-idf & logreg, grouped by data sources, are:
 | (2)  micpro_original        |          57.3%          |
 
 Even tf-idf & logreg has no trouble detecting most types of content. However, we notice that with ~70/30 imbalance in favor of fake content, the model is now struggling with the original content (human-written SDG and MICPRO abstracts). 
+
+## Citing this repo
+
+If you happen to cite this work, you can use the following BibTeX record:
+
+```
+@misc{fake-papers-competition-data-repo,
+    author = {Kashnitsky, Yury},
+    title = {Source code for the COLING workshop competition "Detecting automatically generated scientific papers"},
+    year = {2022},
+    publisher = {GitHub},
+    journal = {GitHub repository},
+    howpublished = {\url{https://github.com/Yorko/fake-papers-competition-data}},
+}
+```
